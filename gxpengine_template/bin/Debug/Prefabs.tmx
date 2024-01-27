@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="100" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="54">
+ <tileset firstgid="1" name="Ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="TX Tileset Ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="HeartUI" tilewidth="253" tileheight="254" tilecount="1" columns="1">
+  <image source="heart.png" width="254" height="254"/>
+ </tileset>
+ <tileset firstgid="258" name="MoneyUI" tilewidth="14" tileheight="16" tilecount="1" columns="1">
+  <image source="CoinSprite.png" width="14" height="16"/>
+ </tileset>
+ <tileset firstgid="259" name="SpellSlot" tilewidth="200" tileheight="200" tilecount="1" columns="1">
+  <image source="spellSlot.png" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="260" name="PortalSS" tilewidth="620" tileheight="486" tilecount="4" columns="4">
+  <image source="PortalSS.png" width="2480" height="486"/>
+ </tileset>
+ <tileset firstgid="264" name="Hazard" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Spike.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="265" name="Platforms" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Platform.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="266" name="healthPickUp" tilewidth="16" tileheight="16" tilecount="4" columns="4">
+  <image source="GreenGem.png" width="64" height="16"/>
+ </tileset>
+ <tileset firstgid="270" name="Coin" tilewidth="16" tileheight="16" tilecount="5" columns="5">
+  <image source="MonedaD.png" width="80" height="16"/>
+ </tileset>
+ <objectgroup id="6" name="UI"/>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="50" name="BouncingCoin" type="gxpengine_template.BouncingCoin" gid="270" x="0" y="32" width="32" height="32">
+   <properties>
+    <property name="Ellasticity" type="float" value="0.9"/>
+    <property name="Gravity" type="float" value="0.5"/>
+    <property name="PickUpSound" value="Sound/coin.mp3"/>
+    <property name="SpawnVel" type="float" value="-10"/>
+    <property name="TerminalVel" type="float" value="5"/>
+    <property name="Volume" type="float" value="0.3"/>
+   </properties>
+  </object>
+  <object id="53" name="PortalRange_3" type="gxpengine_template.Portal" gid="260" x="0" y="96" width="32" height="32">
+   <properties>
+    <property name="EnterPortalFileName" value="PortalSprite.png"/>
+    <property name="ExitPortalFileName" value="PortalSprite.png"/>
+    <property name="Range" type="float" value="96"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
