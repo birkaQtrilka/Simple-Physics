@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/gxpengine_template/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/gxpengine_template/obj/Debug/gxpengine_template.csproj.CoreCompileInputs.cache
+/gxpengine_template/obj/Debug/gxpengine_template.csproj.FileListAbsolute.txt
+/gxpengine_template/obj/Debug/gxpengine_template.exe
+/gxpengine_template/obj/Debug/gxpengine_template.pdb
+/.vs/gxpengine_template/FileContentIndex
+/gxpengine_template/.vs

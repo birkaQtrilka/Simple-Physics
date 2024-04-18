@@ -30,20 +30,21 @@ namespace GXPEngine
 			get { return (int)(OpenGL.GL.glfwGetTime()*1000); }
 		}
 		
+       
         /// <summary>
         /// Returns the time in milliseconds that has passed since the previous frame
         /// </summary>
         /// <value>
         /// The delta time.
         /// </value>
-        private static int previousFrameTime;
-		public static int deltaTime {
+        public static int deltaTime {
 			get { 
 				return previousFrameTime; 
 			}
 		}
+        private static int previousFrameTime;
 
-		internal static void newFrame() {
+        internal static void newFrame() {
 			previousFrameTime = time - previousTime;
 			previousTime = time;
 		}

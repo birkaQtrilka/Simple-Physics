@@ -14,6 +14,7 @@ namespace GXPEngine.Core
 			this.x = x;
 			this.y = y;
 		}
+
         #region Operator overloads
         public static Vector2 operator +(Vector2 v1, Vector2 v2)
 		{
