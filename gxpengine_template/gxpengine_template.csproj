@@ -84,10 +84,6 @@
     <Compile Include="GXPEngine\Utils\Mathf.cs" />
     <Compile Include="GXPEngine\Utils\Time.cs" />
     <Compile Include="GXPEngine\Utils\Utils.cs" />
-    <Compile Include="MyClasses\SpacePartitioning\Boundary.cs" />
-    <Compile Include="MyClasses\SpacePartitioning\Displayer.cs" />
-    <Compile Include="MyClasses\SpacePartitioning\INodeUnit.cs" />
-    <Compile Include="MyClasses\SpacePartitioning\QuadTree.cs" />
     <Compile Include="MyClasses\TankGame\PhysicsEngine\CollisionInfo.cs" />
     <Compile Include="MyClasses\MyGame.cs" />
     <Compile Include="MyClasses\MyUtils.cs" />
